@@ -5,7 +5,7 @@ This project generates a markdown glossary of cybersecurity terms (threats, tool
 ## Project Structure
 ```
 Cybersecurity_Knowledgebase/
-├── assets/ # sample output screenshots
+├── assets/ # Sample output screenshots
 │   └── 1.png
 │   └── 2.png
 │   └── 3.png
