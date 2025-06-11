@@ -3,7 +3,7 @@
 This project generates a markdown glossary of cybersecurity terms (threats, tools, frameworks) from YAML files using a Python script.
 
 ## Project Structure
-
+```
 Cybersecurity_Knowledgebase/
 ├── assets/ # sample output screenshots
 │   └── 1.png
