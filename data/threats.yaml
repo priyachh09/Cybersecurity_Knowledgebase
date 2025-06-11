@@ -1,0 +1,391 @@
+- term: Phishing
+  description: A social engineering attack where attackers impersonate legitimate entities via email or messages.
+  category: Threat
+  examples: 
+    - Email asking to reset your bank password
+    - Fake invoice from Microsoft
+  mitigation:
+    - Employee training to recognize phishing attempts
+    - Use email filtering and anti-phishing tools
+    - Enable multi-factor authentication (MFA)
+
+- term: Malware
+  description: Malicious software designed to disrupt, damage, or gain unauthorized access to systems.
+  category: Threat
+  examples:
+    - Viruses, worms, trojans
+    - Ransomware encrypting files
+  mitigation:
+    - Install and update antivirus/antimalware software
+    - Keep systems and software patched
+    - Avoid opening suspicious attachments or links
+
+- term: Ransomware
+  description: Malware that encrypts a victim's files and demands payment for the decryption key.
+  category: Threat
+  examples:
+    - WannaCry attack encrypting hospital files
+    - Ryuk ransomware targeting enterprises
+  mitigation:
+    - Regularly back up data offline or to secure cloud storage
+    - Patch vulnerabilities and keep software updated
+    - Train users to avoid suspicious links and attachments
+
+- term: Denial of Service (DoS)
+  description: An attack aiming to make a service unavailable by overwhelming it with traffic.
+  category: Threat
+  examples:
+    - Flooding a website with traffic to crash it
+    - Sending malformed packets to disrupt services
+  mitigation:
+    - Use network firewalls and intrusion prevention systems (IPS)
+    - Employ traffic filtering and rate limiting
+    - Use content delivery networks (CDNs) for load balancing
+
+- term: Man-in-the-Middle (MitM)
+  description: An attacker intercepts and possibly alters communications between two parties.
+  category: Threat
+  examples:
+    - Eavesdropping on public Wi-Fi traffic
+    - Session hijacking between client and server
+  mitigation:
+    - Use strong encryption protocols (HTTPS, TLS)
+    - Avoid unsecured public Wi-Fi or use VPN
+    - Implement strong authentication methods
+
+- term: SQL Injection
+  description: Inserting malicious SQL queries into input fields to manipulate databases.
+  category: Threat
+  examples:
+    - Extracting user data from a database
+    - Deleting records or gaining admin access
+  mitigation:
+    - Use prepared statements and parameterized queries
+    - Sanitize and validate all user inputs
+    - Employ web application firewalls (WAF)
+
+- term: Cross-Site Scripting (XSS)
+  description: Injecting malicious scripts into websites that run in other users' browsers.
+  category: Threat
+  examples:
+    - Stealing cookies to hijack sessions
+    - Defacing web pages with injected code
+  mitigation:
+    - Sanitize user inputs and encode output properly
+    - Use Content Security Policy (CSP) headers
+    - Keep web frameworks and libraries updated
+
+- term: Zero-Day Exploit
+  description: Exploiting a software vulnerability unknown to the vendor or not yet patched.
+  category: Threat
+  examples:
+    - Attacks using unpatched OS vulnerabilities
+    - Exploiting new bugs in web browsers
+  mitigation:
+    - Implement layered security defenses (defense-in-depth)
+    - Use behavior-based intrusion detection systems
+    - Apply patches promptly once available
+
+- term: Password Attack
+  description: Attempts to obtain or guess passwords to gain unauthorized access.
+  category: Threat
+  examples:
+    - Brute force guessing
+    - Credential stuffing with leaked passwords
+  mitigation:
+    - Enforce strong password policies
+    - Implement account lockouts after failed attempts
+    - Use multi-factor authentication (MFA)
+
+- term: Insider Threat
+  description: Threats from employees or contractors who misuse access intentionally or unintentionally.
+  category: Threat
+  examples:
+    - Data theft by an employee
+    - Accidental data leaks
+  mitigation:
+    - Implement least privilege access controls
+    - Monitor user activities and audit logs
+    - Conduct regular security awareness training
+
+- term: Advanced Persistent Threat (APT)
+  description: A prolonged and targeted cyberattack to steal data or surveil an organization.
+  category: Threat
+  examples:
+    - Nation-state attacks on critical infrastructure
+    - Long-term spying campaigns
+  mitigation:
+    - Employ threat intelligence and continuous monitoring
+    - Use network segmentation and strong access controls
+    - Maintain incident response plans and conduct drills
+
+- term: Botnet
+  description: A network of compromised computers controlled by an attacker.
+  category: Threat
+  examples:
+    - Distributed Denial of Service (DDoS) attacks
+    - Sending spam emails from infected devices
+  mitigation:
+    - Use endpoint protection and anti-malware tools
+    - Monitor network traffic for anomalies
+    - Keep devices patched and updated
+
+- term: Credential Stuffing
+  description: Using leaked username-password pairs to breach other accounts.
+  category: Threat
+  examples:
+    - Automated login attempts on popular sites
+    - Using breached data to hijack accounts
+  mitigation:
+    - Use multi-factor authentication (MFA)
+    - Monitor login attempts and unusual activities
+    - Educate users on password reuse risks
+
+- term: Social Engineering
+  description: Manipulating people into divulging confidential information.
+  category: Threat
+  examples:
+    - Pretexting or impersonation calls
+    - Phishing emails asking for credentials
+  mitigation:
+    - Conduct regular security awareness training
+    - Implement verification procedures for sensitive requests
+    - Use email filtering and anti-spam solutions
+
+- term: Data Breach
+  description: Unauthorized access and extraction of sensitive information.
+  category: Threat
+  examples:
+    - Hacker stealing customer databases
+    - Leaking confidential company documents
+  mitigation:
+    - Encrypt sensitive data at rest and in transit
+    - Monitor and log access to sensitive information
+    - Perform regular vulnerability assessments
+
+- term: Eavesdropping Attack
+  description: Intercepting network traffic to capture sensitive data.
+  category: Threat
+  examples:
+    - Sniffing passwords over unsecured Wi-Fi
+    - Capturing unencrypted communications
+  mitigation:
+    - Use strong encryption for communications (e.g., TLS)
+    - Avoid public Wi-Fi or use VPNs
+    - Implement network segmentation and monitoring
+
+- term: Rootkit
+  description: Malware that hides its presence and provides persistent privileged access.
+  category: Threat
+  examples:
+    - Kernel-level rootkits hiding malware
+    - Persistent backdoors on infected systems
+  mitigation:
+    - Use trusted boot and integrity verification tools
+    - Regularly scan systems with advanced malware detection
+    - Reinstall systems if rootkits are detected
+
+- term: Drive-By Download
+  description: Malware automatically downloaded when visiting a compromised website.
+  category: Threat
+  examples:
+    - Visiting a hacked site triggers ransomware download
+    - Hidden exploits in ads or scripts
+  mitigation:
+    - Keep browsers and plugins updated
+    - Use web filtering and block malicious sites
+    - Employ endpoint protection and real-time scanning
+
+- term: Exploit Kit
+  description: Automated tools used to identify and exploit vulnerabilities on a victim's device.
+  category: Threat
+  examples:
+    - Kits delivered through malicious websites
+    - Used to deploy ransomware or spyware
+  mitigation:
+    - Patch systems and software regularly
+    - Use network monitoring and intrusion prevention
+    - Educate users about risky websites
+
+- term: Spam
+  description: Unsolicited bulk messages often used to deliver phishing or malware.
+  category: Threat
+  examples:
+    - Unwanted marketing emails
+    - Spam containing malicious links
+  mitigation:
+    - Use spam filters and email authentication (SPF, DKIM)
+    - Educate users to avoid clicking suspicious emails
+    - Implement rate limiting and blacklists
+
+- term: Watering Hole Attack
+  description: Compromising a trusted website frequently visited by targets to deliver malware.
+  category: Threat
+  examples:
+    - Infecting a popular industry forum to target visitors
+  mitigation:
+    - Use threat intelligence to monitor trusted sites
+    - Employ endpoint protection with behavior detection
+    - Educate users to verify unexpected website behavior
+
+- term: Session Hijacking
+  description: Taking over a valid user session to gain unauthorized access.
+  category: Threat
+  examples:
+    - Stealing session cookies via XSS
+    - Man-in-the-middle attacks capturing tokens
+  mitigation:
+    - Use secure cookies with HttpOnly and Secure flags
+    - Implement session timeouts and re-authentication
+    - Use encryption for data transmission
+
+- term: Keylogger
+  description: Malware or hardware that records keystrokes to steal sensitive information.
+  category: Threat
+  examples:
+    - Software keyloggers capturing passwords
+    - Hardware devices plugged between keyboard and PC
+  mitigation:
+    - Use endpoint protection and anti-malware software
+    - Avoid installing untrusted software
+    - Use virtual keyboards or two-factor authentication
+
+- term: DNS Spoofing
+  description: Altering DNS records to redirect traffic to malicious sites.
+  category: Threat
+  examples:
+    - Redirecting bank website requests to phishing sites
+  mitigation:
+    - Use DNSSEC to validate DNS data
+    - Monitor DNS traffic for anomalies
+    - Educate users on verifying website URLs
+
+- term: Clickjacking
+  description: Trick users into clicking hidden or disguised elements on a webpage.
+  category: Threat
+  examples:
+    - Clicking a hidden “Like” button on a malicious page
+  mitigation:
+    - Implement X-Frame-Options HTTP headers
+    - Use Content Security Policy (CSP)
+    - Educate users on suspicious webpage behavior
+
+- term: Typosquatting
+  description: Registering domain names similar to legitimate ones to trick users.
+  category: Threat
+  examples:
+    - Using “goggle.com” instead of “google.com”
+  mitigation:
+    - Educate users to verify URLs carefully
+    - Use browser filters and anti-phishing tools
+    - Monitor and block typosquatting domains
+
+- term: Cryptojacking
+  description: Unauthorized use of a device’s resources to mine cryptocurrency.
+  category: Threat
+  examples:
+    - Malicious scripts running in browser to mine coins
+  mitigation:
+    - Use ad blockers and script blockers
+    - Keep software patched and updated
+    - Use endpoint protection with behavior monitoring
+
+- term: Supply Chain Attack
+  description: Targeting software or hardware supply chains to inject malicious code.
+  category: Threat
+  examples:
+    - Compromised software updates distributing malware
+  mitigation:
+    - Verify software and hardware integrity
+    - Use trusted vendors and code signing
+    - Monitor software behavior and network activity
+
+- term: Password Spraying
+  description: Trying common passwords against many accounts to avoid lockouts.
+  category: Threat
+  examples:
+    - Using “Password123” across multiple accounts
+  mitigation:
+    - Enforce strong password policies
+    - Monitor for unusual login attempts
+    - Use multi-factor authentication (MFA)
+
+- term: Brute Force Attack
+  description: Systematically trying all possible password combinations.
+  category: Threat
+  examples:
+    - Automated tools guessing passwords rapidly
+  mitigation:
+    - Use account lockout policies
+    - Enforce complex password requirements
+    - Employ MFA and rate limiting
+
+- term: Rogue Software
+  description: Fake or malicious software pretending to be legitimate.
+  category: Threat
+  examples:
+    - Fake antivirus that actually installs malware
+  mitigation:
+    - Download software only from trusted sources
+    - Use endpoint protection
+    - Educate users on software authenticity
+
+- term: Eavesdropping (Sniffing)
+  description: Capturing unencrypted network traffic.
+  category: Threat
+  examples:
+    - Packet sniffers on unsecured Wi-Fi networks
+  mitigation:
+    - Use encryption protocols (TLS, VPN)
+    - Avoid using open Wi-Fi networks
+    - Monitor network traffic for suspicious activity
+
+- term: Social Media Attack
+  description: Exploiting social media platforms to spread malware or phishing.
+  category: Threat
+  examples:
+    - Fake friend requests leading to malware links
+  mitigation:
+    - Educate users about social media security
+    - Use privacy settings to limit exposure
+    - Use URL scanning tools before clicking links
+
+- term: Malvertising
+  description: Using online advertisements to spread malware.
+  category: Threat
+  examples:
+    - Ads delivering drive-by downloads
+  mitigation:
+    - Use ad blockers
+    - Employ endpoint protection
+    - Keep browsers and plugins updated
+
+- term: IoT Attack
+  description: Exploiting vulnerabilities in Internet of Things devices.
+  category: Threat
+  examples:
+    - Using unsecured cameras as botnet nodes
+  mitigation:
+    - Change default passwords on IoT devices
+    - Keep firmware updated
+    - Segment IoT devices on separate networks
+
+- term: Password Reset Attack
+  description: Exploiting password reset mechanisms to hijack accounts.
+  category: Threat
+  examples:
+    - Answering security questions or intercepting reset emails
+  mitigation:
+    - Use multi-factor authentication
+    - Implement strong verification for resets
+    - Monitor reset activity logs
+
+- term: Business Email Compromise (BEC)
+  description: Fraudulent emails impersonating executives to initiate wire transfers or data theft.
+  category: Threat
+  examples:
+    - Fake CFO emails requesting urgent fund transfers
+  mitigation:
+    - Implement email authentication (DMARC, SPF, DKIM)
+    - Verify requests via alternate channels
+    - Educate employees on BEC tactics

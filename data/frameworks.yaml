@@ -1,0 +1,111 @@
+- term: NIST Cybersecurity Framework (CSF)
+  description: A framework that provides guidelines for managing and reducing cybersecurity risk.
+  category: Framework
+  source: NIST
+  compliance_areas:
+    - Risk Management
+    - Governance
+    - Incident Response
+    - Asset Protection
+
+- term: NIST 800-53
+  description: A catalog of security and privacy controls for federal information systems.
+  category: Framework
+  source: NIST
+  compliance_areas:
+    - Access Control
+    - Audit and Accountability
+    - System Integrity
+    - Compliance
+
+- term: NIST 800-61
+  description: A guide to computer security incident handling.
+  category: Framework
+  source: NIST
+  compliance_areas:
+    - Incident Response
+    - Threat Detection
+    - Security Operations
+
+- term: ISO/IEC 27001
+  description: A global standard for information security management systems (ISMS).
+  category: Framework
+  source: ISO/IEC
+  compliance_areas:
+    - Information Security
+    - Governance
+    - Compliance
+    - Risk Assessment
+
+- term: ISO/IEC 27002
+  description: A code of practice for information security controls.
+  category: Framework
+  source: ISO/IEC
+  compliance_areas:
+    - Access Control
+    - Asset Management
+    - Security Policies
+
+- term: MITRE ATT&CK
+  description: A knowledge base of adversary tactics and techniques based on real-world observations.
+  category: Framework
+  source: MITRE
+  compliance_areas:
+    - Threat Intelligence
+    - Threat Detection
+    - SOC Operations
+
+- term: CIS Controls
+  description: A set of best practices to help organizations improve their cybersecurity posture.
+  category: Framework
+  source: Center for Internet Security (CIS)
+  compliance_areas:
+    - Endpoint Security
+    - Access Management
+    - Data Protection
+    - System Hardening
+
+- term: OWASP Top 10
+  description: A standard awareness document for the most critical web application security risks.
+  category: Framework
+  source: OWASP
+  compliance_areas:
+    - Application Security
+    - Secure Coding
+    - Web Security
+
+- term: GDPR
+  description: A regulation for data protection and privacy in the EU.
+  category: Framework
+  source: European Union
+  compliance_areas:
+    - Privacy
+    - Data Protection
+    - Compliance
+
+- term: SOC 2
+  description: A reporting framework focusing on controls relevant to security, availability, processing integrity, confidentiality, and privacy.
+  category: Framework
+  source: AICPA
+  compliance_areas:
+    - Cloud Security
+    - Data Protection
+    - Vendor Management
+
+- term: COBIT
+  description: A framework for governance and management of enterprise IT.
+  category: Framework
+  source: ISACA
+  compliance_areas:
+    - IT Governance
+    - Risk Management
+    - Compliance
+
+- term: FAIR (Factor Analysis of Information Risk)
+  description: A model for understanding, analyzing, and quantifying information risk.
+  category: Framework
+  source: FAIR Institute
+  compliance_areas:
+    - Risk Quantification
+    - Risk Management
+    - Strategic Decision Making

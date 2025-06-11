@@ -1,0 +1,144 @@
+- term: Wireshark
+  description: A powerful network packet analyzer for troubleshooting and analysis.
+  category: Tool
+  source: Wireshark Foundation
+  use_cases:
+    - Network traffic analysis
+    - Protocol inspection
+  platform: Windows, Linux, macOS
+
+- term: Nmap
+  description: A network scanning and discovery tool.
+  category: Tool
+  source: Gordon Lyon (Fyodor)
+  use_cases:
+    - Host discovery
+    - Port scanning
+  platform: Cross-platform
+
+- term: Metasploit
+  description: A penetration testing framework for developing and executing exploits.
+  category: Tool
+  source: Rapid7
+  use_cases:
+    - Exploitation
+    - Vulnerability testing
+  platform: Cross-platform
+
+- term: Burp Suite
+  description: A web application security testing tool with proxy and scanner capabilities.
+  category: Tool
+  source: PortSwigger
+  use_cases:
+    - Web application testing
+    - Manual and automated scanning
+  platform: Cross-platform
+
+- term: OWASP ZAP
+  description: An open-source web application vulnerability scanner.
+  category: Tool
+  source: OWASP
+  use_cases:
+    - Scanning for web app vulnerabilities
+    - Security testing automation
+  platform: Cross-platform
+
+- term: Nessus
+  description: A comprehensive vulnerability scanner.
+  category: Tool
+  source: Tenable
+  use_cases:
+    - Network vulnerability scanning
+    - Compliance auditing
+  platform: Windows, Linux, macOS
+
+- term: Nikto
+  description: A web server scanner for detecting outdated software and misconfigurations.
+  category: Tool
+  source: Open Source
+  use_cases:
+    - Web vulnerability detection
+    - Server misconfiguration checks
+  platform: Cross-platform
+
+- term: John the Ripper
+  description: A password-cracking tool for security testing.
+  category: Tool
+  source: Openwall
+  use_cases:
+    - Password auditing
+    - Cracking password hashes
+  platform: Cross-platform
+
+- term: Hashcat
+  description: A high-performance password recovery tool using GPU acceleration.
+  category: Tool
+  source: Open Source
+  use_cases:
+    - Cracking password hashes
+    - Penetration testing
+  platform: Cross-platform
+
+- term: sqlmap
+  description: An automated tool for detecting and exploiting SQL injection.
+  category: Tool
+  source: sqlmap team
+  use_cases:
+    - SQL injection detection
+    - Database takeover
+  platform: Cross-platform
+
+- term: Suricata
+  description: A high-performance network IDS/IPS and network security monitoring engine.
+  category: Tool
+  source: Open Information Security Foundation
+  use_cases:
+    - Intrusion detection
+    - Network traffic analysis
+  platform: Linux, Windows
+
+- term: Snort
+  description: A lightweight IDS/IPS system for real-time traffic analysis.
+  category: Tool
+  source: Cisco
+  use_cases:
+    - Packet analysis
+    - Attack signature detection
+  platform: Linux, Windows
+
+- term: Autopsy
+  description: A digital forensic tool with a GUI built on The Sleuth Kit.
+  category: Tool
+  source: Basis Technology
+  use_cases:
+    - File system forensics
+    - Disk imaging analysis
+  platform: Windows, Linux
+
+- term: Splunk
+  description: A data analytics platform often used for SIEM and log correlation.
+  category: Tool
+  source: Splunk Inc.
+  use_cases:
+    - Threat detection
+    - Log analysis
+  platform: Web-based, CLI
+
+- term: ELK Stack
+  description: A log aggregation and analytics stack using Elasticsearch, Logstash, and Kibana.
+  category: Tool
+  source: Elastic
+  use_cases:
+    - Security log analysis
+    - Centralized monitoring
+  platform: Linux, Docker-based
+
+- term: Lynis
+  category: Tool
+  description: An open-source security auditing tool for Unix-based systems, used to perform in-depth system scans to assess system security and compliance.
+  use_cases:
+    - Security auditing and hardening
+    - Vulnerability detection
+    - Compliance testing (e.g., CIS, PCI-DSS)
+    - System benchmarking
+  platform: Unix-based systems (Linux, macOS, BSD)
