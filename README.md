@@ -23,8 +23,10 @@ Cybersecurity_Knowledgebase/
 1. Make sure you have Python installed (tested with Python 3.12).
 2. Install PyYAML if you haven't already. 
 3. Run the builder script from the scripts directory:
+   ```
             python builder.py
-4. The glossary will be generated at output/glossary.md.
+   ```
+5. The glossary will be generated at output/glossary.md.
 
 #### Example Output Screenshot
 
