@@ -29,4 +29,4 @@ Cybersecurity_Knowledgebase/
 #### Example Output Screenshot
 
 Here is how the generated glossary looks in a Markdown viewer: 
-(assets/1.png)
+![Glossary output](assets/1.png)
