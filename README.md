@@ -18,7 +18,7 @@ Cybersecurity_Knowledgebase/
 ├── output/
 │ └── glossary.md # Generated Markdown glossary (created by script)
 ├── README.md # This file
-
+```
 ### How to Run
 1. Make sure you have Python installed (tested with Python 3.12).
 2. Install PyYAML if you haven't already. 
